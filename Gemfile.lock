@@ -1,16 +1,18 @@
 PATH
   remote: .
   specs:
-    slackbot (0.0.1)
+    slackbot (0.0.3)
       json (~> 1.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.2)
-    crack (0.3.1)
-    json (1.8.0)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    json (1.8.6)
     minitest (5.0.8)
+    safe_yaml (1.0.5)
     webmock (1.8.7)
       addressable (>= 2.2.7)
       crack (>= 0.1.7)
@@ -23,3 +25,6 @@ DEPENDENCIES
   minitest (~> 5.0.8)
   slackbot!
   webmock (~> 1.8.7)
+
+BUNDLED WITH
+   1.16.1

@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "slackbot"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["ecin"]
   spec.email         = ["ecin@copypastel.com"]
   spec.description   = "Tiny library to send messages to the Slack platform."
